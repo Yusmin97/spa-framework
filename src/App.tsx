@@ -18,11 +18,11 @@ import EuncheolMain from './introduceMain/euncheolMain';
 import MoongiMain from './introduceMain/moongiMain';
 import './App.css';
 
-
 function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<WooginMain />} />
         <Route path="/김우진" element={<WooginMain />} />
         <Route path="/방승희" element={<SeungheeMain />} />
         <Route path="/변호녕" element={<HonyungMain />} />
